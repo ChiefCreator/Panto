@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+}
+
+.header {
+  aspect-ratio: 1440/1084;
+  background-image: url("../../img/Rectangle 1441.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  max-width: 1310px;
+  height: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: grid;
+  grid-template-columns: 2fr 8fr 2fr;
+  grid-template-rows: auto;
+  padding: 40px 0;
+}
+.nav .nav__logo {
+  justify-self: start;
+}
+.nav .nav__list {
+  justify-self: center;
+  display: flex;
+  gap: 20px;
+}
+.nav .nav__bascket {
+  justify-self: end;
+}/*# sourceMappingURL=style.css.map */
