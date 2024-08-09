@@ -19,7 +19,7 @@ body.body_lock {
 .header {
   position: relative;
   aspect-ratio: 1440/1084;
-  background-image: url("../../img/Rectangle 1441.jpg");
+  background-image: url("./../img/Rectangle 1441.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
